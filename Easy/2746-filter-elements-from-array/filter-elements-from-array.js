@@ -9,7 +9,7 @@ var filter = function(arr, fn) {
   {
     if(fn(arr[i],Number(i)))
     {
-        res.push(arr[i])
+       res.push(arr[i]) 
     }
   }
   
